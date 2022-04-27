@@ -1,0 +1,1786 @@
+html{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  overflow-x: hidden;
+}
+body{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@font-face {
+  font-family: "IBMPlex";
+  src: url("../assets/fonts/IBMPlexSansArabic-Thin.ttf");
+}
+.header{
+  min-width: 100%;
+  min-height: 10%;
+}
+#title{
+  max-width: 100%;
+  max-height: 20%;
+  font-family: IBMPlex, serif;
+  font-weight: bold;
+  font-size: 2vw;
+}
+.firstBlock{
+  margin-top: 5vw;
+  display: flex;
+  position: relative;
+  max-height: 100%;
+  max-width: 80%;
+}
+.fistPictureBlock{
+  display: flex;
+  position: relative;
+}
+#firstPicture{
+  width: 45vw;
+  height: 35vw;
+  box-shadow: 0.5vw 0 1vw 0 rgba(134, 141, 147, 0.66);
+}
+#secondPicture{
+  width: 25vw;
+  height: 25vw;
+  margin-top: 25vw;
+  margin-left: -12vw;
+}
+.firstTextBlock{
+  display: flex;
+  position: relative;
+  min-width: 40vw;
+  height: 30vw;
+  margin-top: 6vw;
+  margin-left: -20vw;
+  background-color: white;
+  box-shadow: 0 0 1vw 0 rgba(134, 141, 147, 0.66);
+}
+#textInFirstBlock{
+  font-family: IBMPlex, serif;
+  font-size: 5vw;
+  line-height: 6vw;
+  padding-left: 2vw;
+  max-width: 30vw;
+}
+#firstLink{
+  text-decoration: none;
+  font-size: 7vw;
+  font-family: IBMPlex,serif;
+  font-weight: bold;
+  color: black;
+  margin-left: -30vw;
+  margin-top: 19vw;
+}
+.blueBox{
+  display: flex;
+  position: relative;
+  z-index: -2;
+}
+#blueBlock{
+  margin-top: -16vw;
+  margin-left: 15vw;
+  width: 40vw;
+  height: 70vw;
+  background-color: #a7effc;
+}
+#blueLine{
+  margin-top: 50vw;
+  margin-left: -47vw;
+  width: 1vw;
+  height: 10vw;
+  background-color: #a7effc;
+}
+.secondTextBlock{
+  display: flex;
+  position: relative;
+  z-index: 1;
+  width: 30vw;
+  min-height: 30vw;
+  margin-top: -53vw;
+  background-color: white;
+  box-shadow: 0 0 1vw 0 rgba(134, 141, 147, 0.66);
+}
+#textInSecondBlock{
+  font-family: IBMPlex, serif;
+  font-size: 2.5vw;
+  line-height:3vw;
+  padding-left: 3vw;
+  max-width: 22.5vw;
+}
+.secondPictureBlock{
+display: flex;
+  position: relative;
+z-index: -1;
+}
+#thirdPicture{
+margin-top: -15vw;
+  margin-left: 20vw;
+  min-width: 58vw;
+  max-height: 25vw;
+}
+#secondLink{
+  font-size: 1.3vw;
+  margin-left: -22.5vw;
+  margin-top: 26vw;
+  color: cornflowerblue;
+}
+#secondLink:hover{
+  color: blue;
+}
+.thirdPictureBlock{
+  display: flex;
+  position: relative;
+  margin-top: 5vw;
+  margin-left: 20vw;
+}
+#fourthPicture{
+  width: 25vw;
+  height: 25vw;
+  margin-left: 33vw;
+  box-shadow: 0 0 1vw 0 rgba(134, 141, 147, 0.66);
+}
+#fifthPicture{
+  width: 32vw;
+  height: 26vw;
+  margin-top: 12vw;
+  margin-left: -40vw;
+  box-shadow: 0 0 1vw 0 rgba(134, 141, 147, 0.66);
+}
+#sixthPicture{
+  width: 20vw;
+  height: 10vw;
+  margin-top: 35vw;
+  margin-left: -25vw;
+}
+.thirdTextBlock{
+  display: flex;
+  position: relative;
+  width: 30vw;
+  height: 28vw;
+  margin-left: 8vw;
+  margin-top: -35vw;
+}
+#thirdHeader{
+  min-width: 25vw;
+  font-size: 4vw;
+  font-family: IBMPlex,serif;
+  line-height: 5vw;
+}
+#textInThirdBlock{
+  font-size: 1.3vw;
+  font-family: IBMPlex,serif;
+  line-height: 2vw;
+  margin-top: 15vw;
+  margin-left: -25vw;
+  min-width: 25vw;
+}
+.thirdLink{
+  margin-top: 22vw;
+  margin-left: -25vw;
+  display: flex;
+  position: relative;
+  min-width: 30vw;
+  height: 3vw;
+}
+#thirdLink{
+  padding: 1vw 2vw 1vw 2vw;
+  font-size: 1.3vw;
+  font-family: IBMPlex,serif;
+  line-height: 1vw;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  border: cornflowerblue 0.15vw solid;
+}
+#thirdLink:hover{
+  border: none;
+}
+.fourthPictureBlock{
+  display: flex;
+  position: relative;
+  margin-top: -15vw;
+}
+#blueBlockSecond{
+  margin-top: -10vw;
+  margin-left: 15vw;
+  min-width: 40vw;
+  height: 60vw;
+  background-color:#e7fafa ;
+}
+#blueBlockThird{
+  margin-left: -55vw;
+  margin-top: 10vw;
+  min-width: 70vw;
+  height: 25vw;
+  background-color: #b0e5fc;
+}
+#seventhPicture{
+  width: 40vw;
+  height: 40vw;
+  margin-left: -60vw;
+  margin-top: 2vw;
+}
+.fourthTextBlock{
+  display: flex;
+  position: relative;
+  min-width: 33vw;
+  min-height: 34vw;
+  background-color: white ;
+  box-shadow: 0 0 1vw 0 rgba(134, 141, 147, 0.66);
+  margin-left: 45vw;
+  margin-top: 6.5vw;
+  z-index: 1;
+}
+#fourthHeader{
+  font-family: IBMPlex,serif;
+  min-width: 25vw;
+  font-size: 2.7vw;
+  padding-left: 4vw;
+  padding-top: 1vw;
+}
+#fourthText{
+  font-family: IBMPlex,serif;
+  min-width: 25vw ;
+  font-size: 1.2vw;
+  font-style: italic;
+  margin-left: -25vw;
+  padding-top: 11vw;
+}
+#fourthLink{
+  padding: 1vw 2vw 1vw 2vw;
+  font-size: 1vw;
+  font-family: IBMPlex,serif;
+  line-height: 0.5vw;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  border: cornflowerblue 0.15vw solid;
+}
+#fourthLink:hover{
+  border: none;
+}
+.thirdLink{
+  margin-top: 27vw;
+  margin-left: -25vw;
+  display: flex;
+  position: relative;
+  min-width: 30vw;
+  height: 3vw;
+}
+.fifthBlock{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vw;
+}
+#eighthPicture{
+  width: 20vw;
+  height: 17vw;
+  box-shadow: 0 0 3vw 0 rgba(134, 141, 147, 0.72);
+}
+#ninthPicture{
+  width: 20vw;
+  height: 17vw;
+  box-shadow: 0 0 3vw 0 rgba(134, 141, 147, 0.72);
+}
+#tenthPicture{
+  width: 20vw;
+  height: 17vw;
+  box-shadow: 0 0 3vw 0 rgba(134, 141, 147, 0.72);
+}
+.twoBlock{
+  margin-top: 20vw;
+}
+.blueSquare{
+  margin-top: -12vw;
+  margin-left: 5vw;
+  min-width: 20vw;
+  min-height: 17vw;
+  background-color: #b0e5fc;
+}
+.blueSquareTwo{
+  margin-top: -12vw;
+  margin-left: 5vw;
+  min-width: 20vw;
+  min-height: 17vw;
+  background-color: #b0e5fc;
+}
+.blueSquareThree{
+  margin-top: -12vw;
+  margin-left: 5vw;
+  min-width: 20vw;
+  min-height: 17vw;
+  background-color: #b0e5fc;
+}
+.fifthTextBlock{
+  font-family: IBMPlex,serif;
+  font-size: 1.4vw;
+  max-width: 18vw;
+  line-height: 2vw;
+  margin-left: 3vw;
+  margin-top: 5vw;
+}
+#MAPAText{
+margin-top: -44vw;
+}
+
+.fifthLink{
+  font-family: IBMPlex,serif;
+  font-size: 1.1vw;
+  margin-left: -11vw;
+  text-decoration: none;
+  color: cornflowerblue;
+  font-weight: bolder;
+}
+.fifthLink:hover{
+  color: #344d7c;
+}
+.sixthBlock{
+  display: flex;
+  width: 99.4vw;
+  height: 52vw;
+  margin-left: -11vw;
+  margin-top: 10vw;
+  background-color: #edf5f6;
+}
+.sixthPictureBlock{
+  margin-left: 10vw;
+}
+.sixthTextBack{
+  display: flex;
+  position: relative;
+}
+#eleventhPicture{
+  margin-left: 0.8vw;
+  display: flex;
+  width: 40vw;
+  height: 45vw;
+  margin-top: 5vw;
+}
+#textInSixthBlock{
+  font-family: IBMPlex,serif;
+  font-size: 1.1vw;
+  color: #ffffff;
+ width: 39vw;
+  max-height: 7vw;
+  background-color: rgba(0, 0, 0, 0.53);
+  margin-top: 44.7vw;
+  margin-left: -40vw;
+  padding: 1vw 0 1vw 1vw;
+}
+.iconBox{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 5vw 0;
+}
+.iconBoxOne{
+  width: 17vw;
+  height: 21.5vw;
+  background-color: white;
+  margin: 0.1vw 0 0 2vw;
+
+}
+.iconBoxTwo{
+  width: 17vw;
+  height: 21.5vw;
+  background-color: white;
+  margin: 1.9vw 0 0 2vw;
+
+}
+.oneIcon{
+  width: 5vw;
+  height: 5vw;
+  padding-top: 4vw;
+  padding-left: 5.8vw;
+}
+.iconText{
+  font-family: IBMPlex,serif;
+  font-size: 2vw;
+  text-align: center;
+}
+.fifthLink{
+  font-family: IBMPlex,serif;
+  font-size: 1.3vw;
+  padding-left: 11vw;
+}
+.seventhBlock{
+  display: flex;
+  position: relative;
+  margin: 0 0 9vw 0;
+}
+.seventhPictureBlock{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: 5vw;
+}
+#twelve{
+  display: flex;
+  width: 35vw;
+  height: 23vw;
+  z-index: 2;
+}
+#thirteen{
+  display: flex;
+  width: 20vw;
+  height: 14vw;
+  margin-top: -7vw;
+  margin-left: 21vw;
+  z-index: 3;
+}
+#blueBlockFourth{
+  display: flex;
+  width: 35vw;
+  height: 23vw;
+  background-color: #cdeffd;
+  margin-left: 3vw;
+  margin-top: -26vw;
+  z-index: 1;
+}
+.seventhTextBlock{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 7vw 0 0 8vw;
+}
+#seventhHeader{
+  font-family: IBMPlex,serif;
+  font-size: 2.5vw;
+  line-height: 3vw;
+  max-width: 20vw;
+}
+.seventhText{
+  font-family: IBMPlex,serif;
+  font-size: 1.4vw;
+  line-height: 2vw;
+  font-weight: bold;
+  max-width: 29vw;
+  margin-top: -0.5vw;
+}
+#seventhNote{
+  font-family: IBMPlex,serif;
+  font-size: 1.4vw;
+  font-weight: bold;
+  margin-top: -0.3vw;
+}
+#seventhlink{
+  margin-left: -10vw;
+  font-size: 1.4vw;
+}
+#readmore{
+  margin-left: -11vw;
+  margin-top: 0.5vw;
+}
+.footer{
+  width: 100vw;
+  height: 10vw;
+  margin-bottom: -1vw;
+  margin-left: -11vw;
+  display: flex;
+  position: relative;
+  background-color: #1e1c1c;
+}
+.footerText{
+  display: flex;
+  flex-direction: row;
+ margin-left: -2vw;
+ justify-content: space-between;
+  padding: 2vw 10vw 0 10vw;
+  margin-top: -1vw;
+  font-size: 1.1vw;
+  color: white;
+  font-weight: lighter;
+}
+.footerTwo{
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 5vw;
+  margin-bottom: -1vw;
+  margin-left: -11vw;
+  background-color: rgb(63, 60, 60);
+}
+#finishNote{
+  font-family: IBMPlex,serif;
+  font-size: 1vw;
+  color: white;
+}
+.finishLink{
+  font-family: IBMPlex,serif;
+  font-size: 1vw;
+  color: #99c0ff;
+}
+.footerFinishText{
+  margin-left: 35vw;
+}
+@media(max-width: 1199px) {
+html{
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+  #title{
+    font-size: 3vw;
+  }
+  .firstBlock{
+    margin-top: 4vw;
+    margin-left: -2vw;
+  }
+  #firstPicture{
+    width: 50vw;
+    height: 50vw;
+  }
+  #secondPicture{
+    width: 30vw;
+    height: 30vw;
+    margin-top: 28vw;
+    margin-left: -15vw;
+  }
+  .firstTextBlock{
+    min-height: 35vw;
+    padding: 2vw 1vw 3vw 1vw;
+  }
+  #textInFirstBlock{
+    font-size: 6vw;
+    line-height: 7vw;
+    min-width: 35.5vw;
+  }
+  #firstLink{
+    font-size: 8vw;
+    margin-left: -35.5vw;
+    margin-top: 24vw;
+  }
+  #blueBlock{
+    margin-top: -9vw;
+    width: 44vw;
+    height: 90vw;
+  }
+  .secondTextBlock{
+    width: 42vw;
+    min-height: 42vw;
+    margin-top: -80vw;
+  }
+  #blueLine{
+    margin-top: 75vw;
+    margin-left: -55vw;
+    width: 1.2vw;
+    height: 15vw;
+  }
+  #textInSecondBlock{
+    font-size: 3.4vw;
+    line-height:4vw;
+    padding: 2.5vw 2vw 3vw 4vw;
+    min-width: 31vw;
+  }
+  #secondLink{
+    font-size: 1.5vw;
+    margin-left: -32.6vw;
+    margin-top: 35vw;
+  }
+  #thirdPicture{
+    margin-top: -25vw;
+    margin-left: 20vw;
+    min-width: 65vw;
+    max-height: 35vw;
+  }
+  .thirdPictureBlock{
+    margin-top: 10vw;
+    margin-left: 23vw;
+  }
+  #fourthPicture{
+    width: 29vw;
+    height: 32vw;
+    margin-left: 33vw;
+  }
+  #fifthPicture{
+    width: 35vw;
+    height: 33vw;
+    margin-top: 20vw;
+    margin-left: -43vw;
+  }
+  #sixthPicture{
+    width: 23vw;
+    height: 18vw;
+    margin-top: 42vw;
+  }
+  .thirdTextBlock{
+    width: 30vw;
+    height: 28vw;
+    margin-left: 4vw;
+    margin-top: -42vw;
+  }
+  #thirdHeader{
+    max-width: 35vw;
+    font-size: 6vw;
+    line-height: 7vw;
+  }
+  #textInThirdBlock{
+    font-size: 1.5vw;
+    line-height: 2vw;
+    margin-top: 20vw;
+    margin-left: -35vw;
+    max-width: 30vw;
+  }
+  .thirdLink{
+    margin-top: 28vw;
+    margin-left: -30vw;
+    min-width: 30vw;
+    height: 3vw;
+  }
+  #thirdLink{
+    padding: 2vw 3vw 2vw 3vw;
+    font-size: 1.5vw;
+    line-height: 0;
+    font-weight: bold;
+  }
+  .fourthPictureBlock{
+    margin-top: -20vw;
+  }
+  #blueBlockSecond{
+    margin-top: -12vw;
+    margin-left: 20vw;
+    min-width: 40vw;
+    height: 72vw;
+  }
+  #blueBlockThird{
+    margin-left: -60vw;
+    margin-top: 10vw;
+    min-width: 75vw;
+    height: 32vw;
+  }
+  #seventhPicture{
+    width: 47vw;
+    height: 47vw;
+    margin-left: -68vw;
+    margin-top: 2vw;
+  }
+  .fourthTextBlock{
+    min-width: 40vw;
+    min-height: 47vw;
+    margin-top: 13.5vw;
+  }
+  #fourthHeader{
+    max-width: 30vw;
+    font-size: 3.5vw;
+    padding-top: 3vw;
+    line-height: 4.5vw;
+  }
+  #fourthText{
+    max-width: 30vw ;
+    font-size: 1.6vw;
+    margin-left: -30vw;
+    padding-top: 15vw;
+  }
+  #fourthLink{
+    margin-top: 10vw;
+    margin-left: 0vw;
+    padding: 2vw 3vw 2vw 3vw;
+    font-size: 1.5vw;
+    line-height: 0;
+    font-weight: bold;
+  }
+  #eighthPicture{
+    width: 21vw;
+    height: 22vw;
+
+  }
+  #ninthPicture{
+    width: 21vw;
+    height: 22vw;
+  }
+  #tenthPicture{
+    width: 21vw;
+    height: 22vw;
+  }
+  .blueSquare{
+    min-width: 21vw;
+    max-width: 21vw;
+    min-height: 22vw;
+    margin-left: 4vw;
+    margin-top: -18vw;
+  }
+  .blueSquareTwo{
+    min-width: 21vw;
+    max-width: 21vw;
+    min-height: 22vw;
+    margin-left: 4vw;
+    margin-top: -18vw;
+
+  }
+  .blueSquareThree{
+    min-width: 21vw;
+    max-width: 21vw;
+    min-height: 22vw;
+    margin-left: 4vw;
+    margin-top: -18vw;
+
+  }
+  .fifthTextBlock{
+    font-size: 2vw;
+    max-width: 25vw;
+    line-height: 3vw;
+    margin-left: 3vw;
+    margin-top: -1vw;
+  }
+
+  #MAPAText{
+    margin-left: -3vw;
+  }
+  #fifthLink{
+    margin-left: -20vw;
+  }
+  .fifthLink{
+    font-size: 1.5vw;
+    margin-left: -16.3vw;
+  }
+  .sixthBlock{
+    min-width: 50vw;
+    min-height: 65vw;
+    margin-left: -8vw;
+    margin-top: 10vw;
+  }
+  #eleventhPicture{
+    margin-left: -2vw;
+    width: 45vw;
+    height: 55vw;
+  }
+  #textInSixthBlock{
+    font-size: 1.6vw;
+    width: 44vw;
+    margin-top: 52.6vw;
+    margin-left: -45vw;
+    padding: 1.3vw 0 1.3vw 1vw;
+  }
+  .iconBox{
+    margin: 5vw 0;
+  }
+  .iconBoxOne{
+    width: 18vw;
+    height: 25.5vw;
+    margin: 0.1vw 0 0 2.2vw;
+  }
+  .iconBoxTwo{
+    width: 18vw;
+    height: 25.5vw;
+    margin: 3.5vw 0 0 2.2vw;
+  }
+  .oneIcon{
+    padding-left: 6.4vw;
+  }
+  .iconText{
+    font-size: 2.2vw;
+  }
+  .fifthLink{
+    font-size: 1.5vw;
+    padding-left: 17vw;
+  }
+  .seventhBlock{
+    margin: 3vw 0 15vw 0;
+  }
+  #twelve{
+    width: 40vw;
+    height: 37vw;
+  }
+  #thirteen{
+    width: 23vw;
+    height: 20vw;
+    margin-top: -11vw;
+    margin-left: 24vw;
+  }
+  #blueBlockFourth{
+    width: 40vw;
+    height: 37vw;
+    margin-left: 4vw;
+    margin-top: -41vw;
+  }
+  .seventhTextBlock{
+    margin-left: 5vw;
+  }
+  #seventhHeader{
+    font-size: 3.6vw;
+    line-height: 4.5vw;
+    max-width: 25vw;
+  }
+  .seventhText{
+    font-size: 1.5vw;
+    line-height: 2vw;
+    margin-top: 0.5vw;
+    min-width: 35vw;
+  }
+  #seventhNote{
+    font-size: 1.5vw;
+    margin-top: 1.2vw;
+  }
+  #seventhlink{
+    margin-left: -11.5vw;
+    font-size: 1.5vw;
+  }
+  #readmore{
+    margin-left: -17vw;
+  }
+  .footer{
+    min-width: 100%;
+    height: 20vw;
+    margin-bottom: -1vw;
+    margin-left: -8vw;
+  }
+  .footerText{
+    margin-left: -3vw;
+    padding: 2vw 5vw 0 10vw;
+    margin-top: 1vw;
+    line-height: 0.1vw;
+    font-size: 1.8vw;
+  }
+  .footerTwo{
+    min-width: 100%;
+    height: 8vw;
+    margin-bottom: -1vw;
+    margin-left: -8vw;
+  }
+  #finishNote{
+    font-size: 1.5vw;
+  }
+  .finishLink{
+    font-size: 1.5vw;
+  }
+  .footerFinishText{
+    margin-left: 32vw;
+  }
+}
+@media(max-width: 991px){
+  html{
+    margin-left: 8vw;
+    margin-right: 8vw;
+  }
+  #title{
+    font-size: 3.5vw;
+  }
+  #firstPicture{
+    min-width: 52vw;
+    min-height: 63vw;
+    margin-left: 2vw;
+  }
+  #secondPicture{
+    min-width: 30vw;
+    min-height: 32vw;
+    margin-top: 42vw;
+  }
+  .firstTextBlock{
+    min-height: 40vw;
+    margin-left: -23vw;
+    margin-top: 10vw;
+  }
+  #blueBlock{
+    margin-top: -12vw;
+    min-width: 40vw;
+    min-height: 110vw;
+  }
+  .secondTextBlock{
+    min-width: 43vw;
+    min-height: 53vw;
+    margin-top: -95vw;
+  }
+  #blueLine{
+    margin-top: 90vw;
+    margin-left: -55vw;
+    width: 1.5vw;
+    height: 18vw;
+  }
+  #textInSecondBlock{
+    font-size: 4vw;
+    line-height:5vw;
+    padding: 2.5vw 2vw 3vw 4vw;
+    min-width: 37vw;
+  }
+  #secondLink{
+    font-size: 2vw;
+    margin-left: -38.7vw;
+    margin-top: 44vw;
+  }
+  #thirdPicture{
+    margin-top: -31vw;
+    margin-left: 24vw;
+    min-width: 60vw;
+    max-height: 45vw;
+  }
+  #fourthPicture{
+    width: 26vw;
+    height: 37vw;
+    margin-left: 35vw;
+  }
+  #fifthPicture{
+    width: 31vw;
+    height: 42vw;
+    margin-top: 24vw;
+    margin-left: -38vw;
+  }
+  #sixthPicture{
+    width: 22vw;
+    height: 22vw;
+    margin-top: 52vw;
+  }
+  .thirdTextBlock{
+    width: 30vw;
+    height: 28vw;
+    margin-left: 4vw;
+    margin-top: -53vw;
+  }
+  #thirdHeader{
+    min-width: 55vw;
+    font-size: 7vw;
+    line-height: 8vw;
+  }
+  #textInThirdBlock{
+    font-size: 2vw;
+    line-height: 2.5vw;
+    margin-top: 23vw;
+    margin-left: -55vw;
+  }
+  .thirdLink{
+    margin-top: 38vw;
+  }
+  #thirdLink{
+    font-size: 2vw;
+  }
+  .fourthPictureBlock{
+    margin-top: -20vw;
+  }
+  #blueBlockSecond{
+    margin-top: -12vw;
+    margin-left: 20vw;
+    min-width: 50vw;
+    height: 85vw;
+  }
+  #blueBlockThird{
+    margin-left: -70vw;
+    margin-top: 10vw;
+    min-width: 75vw;
+    height: 42vw;
+  }
+  #seventhPicture{
+    min-width: 55vw;
+    min-height: 60vw;
+    margin-left: -68vw;
+  }
+  .fourthTextBlock{
+    min-width: 45vw;
+    min-height: 55vw;
+    margin-top: 24vw;
+    margin-left: 39vw;
+  }
+  #fourthHeader{
+    min-width: 40vw;
+    font-size: 3.7vw;
+    padding-top: 3.5vw;
+  }
+  #fourthText{
+    max-width: 33vw ;
+    font-size: 1.8vw;
+    margin-left: -40vw;
+    padding-top: 17vw;
+  }
+  #fourthLink{
+    margin-top: 6vw;
+    margin-left: -3vw;
+    font-size: 1.8vw;
+  }
+  .fifthBlock {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  #eighthPicture{
+    width: 34vw;
+    height: 32vw;
+  }
+  .blueSquare{
+     max-width: 34vw;
+     min-height: 32vw;
+    margin-top: -27vw;
+   }
+  #ninthPicture{
+    display: flex;
+    position: relative;
+    width: 34vw;
+    height: 32vw;
+    margin-top: -55vw;
+    margin-left: 45vw;
+  }
+  .blueSquareTwo{
+    min-width: 34vw;
+    min-height: 32vw;
+    margin-left: 50vw;
+    margin-top: -26vw;
+    }
+  #tenthPicture{
+    width: 75vw;
+    height: 32vw;
+    margin-top: -10vw;
+  }
+  .blueSquareThree{
+    min-width: 75vw;
+    min-height: 32vw;
+    margin-top: -25vw;
+    margin-left: 9vw;
+  }
+  .fifthTextBlock{
+    font-size: 3vw;
+    min-width: 45vw;
+    line-height: 4vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+  }
+  #MAPAText{
+    margin-left: 42vw;
+    margin-top: -65vw;
+    min-width: 40vw;
+  }
+#fifthTextThird{
+  min-width: 80vw;
+}
+  #fifthLinkOne{
+    font-size: 2vw;
+    margin-left: -20.5vw;
+  }
+  #fifthLink{
+    font-size: 2vw;
+    margin-left: 21vw;
+  }
+  #fifthLinkThird{
+    font-size: 2vw;
+    margin-left: -20.8vw;
+  }
+  .sixthBlock{
+    min-width: 50vw;
+    min-height: 175vw;
+    margin-left: -8vw;
+    margin-top: 10vw;
+  }
+  #eleventhPicture{
+    margin-left: 0;
+    width: 80vw;
+    height: 75vw;
+  }
+  #textInSixthBlock{
+    font-size: 2vw;
+    min-width: 79vw;
+    margin-left: -80vw;
+    margin-top: 71.5vw;
+    padding: 2vw 1vw 1.3vw 1vw;
+  }
+  .iconBox{
+    flex-direction: column;
+    margin-top: 85vw;
+    margin-left: -82vw;
+  }
+  .iconBoxOne{
+    width: 38.5vw;
+    height: 38.5vw;
+    margin-top: 3.5vw;
+  }
+  .iconBoxTwo{
+    width: 38.5vw;
+    height: 38.5vw;
+  }
+  .oneIcon{
+    padding-left: 16.5vw;
+    padding-top: 7vw;
+  }
+  .iconText{
+    font-size: 3vw;
+  }
+  .fifthLink{
+    font-size: 2vw;
+    padding-left: 25vw;
+  }
+  .seventhBlock{
+    margin: 3vw 0 15vw 0;
+  }
+  #twelve{
+    width: 40vw;
+    height: 45vw;
+  }
+  #thirteen{
+    width: 23vw;
+    height: 25vw;
+    margin-top: -11vw;
+    margin-left: 24vw;
+  }
+  #blueBlockFourth{
+    width: 40vw;
+    height: 45vw;
+    margin-left: 4vw;
+    margin-top: -53vw;
+  }
+  .seventhTextBlock{
+    margin-left: 3vw;
+  }
+  #seventhHeader{
+    font-size: 4.5vw;
+    line-height: 5.5vw;
+    max-width: 25vw;
+  }
+  .seventhText{
+    font-size: 1.8vw;
+    line-height: 3vw;
+    margin-top: 0.5vw;
+    max-width: 25vw;
+  }
+  #seventhNote{
+    font-size: 1.8vw;
+  }
+  #seventhlink{
+    margin-left: -21vw;
+    font-size: 1.8vw;
+  }
+  #readmore{
+    margin-left: -25vw;
+  }
+  .footerText{
+    font-size: 2vw;
+  }
+  #finishNote{
+    font-size: 1.8vw;
+  }
+  .finishLink{
+    font-size: 1.8vw;
+  }
+  .footerFinishText{
+    margin-left: 28vw;
+  }
+}
+@media(max-width: 767px){
+  html{
+    margin-left: 14vw;
+    margin-right: 14vw;
+  }
+  #title{
+    font-size: 4.5vw;
+  }
+  #firstPicture{
+    min-width: 63vw;
+    min-height: 70vw;
+    margin-left: 2vw;
+  }
+  #secondPicture{
+    min-width: 45vw;
+    min-height: 45vw;
+    margin-top: 60vw;
+    margin-left: -40vw;
+  }
+  .firstTextBlock{
+    min-width: 61vw;
+    min-height: 60vw;
+    max-height: 60vw;
+    margin-left: -68vw;
+    margin-top: 100vw;
+  }
+  #textInFirstBlock{
+    font-size: 8.5vw;
+    line-height: 10vw;
+    min-width: 50vw;
+    margin-left: 3vw;
+    margin-top: 9vw;
+  }
+  #firstLink{
+    font-size: 8.5vw;
+    margin-top: 40vw;
+    margin-left: -50vw;
+  }
+  #blueBlock{
+    margin-top: -95vw;
+    margin-left: 12vw;
+    min-height: 250vw;
+  }
+  .secondTextBlock{
+    min-width: 53vw;
+    min-height: 63vw;
+    margin-top: -140vw;
+  }
+  #blueLine{
+    display: none;
+  }
+  #textInSecondBlock{
+    font-size: 5vw;
+    line-height:6vw;
+    min-width: 48vw;
+  }
+  #secondLink{
+    font-size: 2.5vw;
+    margin-left: -49.5vw;
+    margin-top: 52vw;
+  }
+  #thirdPicture{
+    margin-top: -10vw;
+    margin-left: 5vw;
+    min-width: 55vw;
+    max-width: 64vw;
+    min-height: 50vw;
+    max-height: 54vw;
+  }
+  .thirdPictureBlock{
+    margin-top: 50vw;
+    margin-left: -10vw;
+  }
+  #fourthPicture{
+    width: 45vw;
+    height: 50vw;
+    margin-left: 33vw;
+  }
+  #fifthPicture{
+    width: 38vw;
+    height: 55vw;
+    margin-top: 30vw;
+    margin-left: -68vw;
+  }
+  #sixthPicture{
+    width: 35vw;
+    height: 30vw;
+    margin-top: 70vw;
+    margin-left: -37vw;
+  }
+  .thirdTextBlock{
+    margin-left: 0;
+    margin-top: -150vw;
+  }
+  #thirdHeader{
+    min-width: 70vw;
+    font-size: 8vw;
+  }
+  #textInThirdBlock{
+    font-size: 2.5vw;
+    line-height:3vw;
+    min-width: 45vw;
+    margin-top: 17vw;
+    margin-left: -57vw;
+  }
+  .thirdLink{
+    margin-top: 30vw;
+  }
+  .fourthBlock{
+    margin-top: 115vw;
+  }
+  .fourthTextBlock{
+    width: 60vw;
+    min-height: 65vw;
+    margin-left: 0;
+  }
+  #fourthHeader{
+    min-width: 55vw;
+    font-size: 4.5vw;
+  }
+  #fourthText{
+    min-width: 38vw ;
+    font-size: 2.2vw;
+    margin-left: -54.5vw;
+  }
+  #fourthLink{
+    margin-top: 22vw;
+    margin-left: -7.5vw;
+    font-size: 2vw;
+    padding: 2.5vw 4.5vw 2.5vw 4.5vw;
+  }
+  #blueBlockSecond{
+    margin-top: -53vw;
+    margin-left: 10vw;
+    min-width: 55vw;
+    height: 155vw;
+  }
+  #blueBlockThird{
+    margin-left: -62vw;
+    margin-top: 40vw;
+    min-width: 67vw;
+    height: 42vw;
+  }
+  #seventhPicture{
+    min-width: 60vw;
+    min-height: 60vw;
+    margin-left: -63vw;
+    margin-top: 30vw;
+  }
+  #eighthPicture{
+    width: 65vw;
+    height: 35vw;
+    margin-top: 10vw;
+  }
+  .blueSquare{
+    max-width: 65vw;
+    min-height: 35vw;
+    margin-top: -27vw;
+  }
+  #ninthPicture{
+    width: 65vw;
+    height: 35vw;
+    margin-top: -5vw;
+    margin-left: 0;
+  }
+  .blueSquareTwo{
+    min-width: 65vw;
+    min-height: 35vw;
+    margin-left: 5vw;
+    margin-top: -30vw;
+  }
+  #tenthPicture{
+    width: 65vw;
+    height: 35vw;
+    margin-top: 18vw;
+  }
+  .blueSquareThree{
+    min-width: 65vw;
+    min-height: 35vw;
+    margin-top: -30vw;
+    margin-left: 5vw;
+  }
+  #MAPAText{
+    margin-left: 0;
+    margin-top: 5vw;
+    min-width: 40vw;
+  }
+  .fifthTextBlock{
+    min-width: 50vw;
+    margin-left: 4vw;
+  }
+  #fifthTextThird{
+    min-width: 60vw;
+  }
+  #fifthLinkOne{
+    font-size: 2.5vw;
+    margin-left: -24.5vw;
+  }
+  #fifthLink{
+    font-size: 2.5vw;
+    margin-left: -24.5vw;
+  }
+  #fifthLinkThird{
+    font-size: 2.5vw;
+    margin-left: -24.5vw;
+  }
+  .sixthBlock{
+    min-width: 50vw;
+    min-height: 280vw;
+    margin-left: -14vw;
+    margin-top: 10vw;
+  }
+  #eleventhPicture{
+    margin-left: 4vw;
+    width: 70vw;
+    height: 75vw;
+  }
+  #textInSixthBlock{
+    font-size: 2.5vw;
+    min-width: 68vw;
+    margin-left: -70vw;
+    margin-top: 68.5vw;
+    padding: 2vw 1vw 2.5vw 1vw;
+  }
+  .iconBox{
+    width: 70vw;
+    height: 200vw;
+    margin-top: 80vw;
+    margin-left: -72vw;
+  }
+  .iconBoxOne{
+    width: 70vw;
+    height: 45vw;
+  }
+  .iconBoxTwo{
+    width: 70vw;
+    height: 45vw;
+  }
+  .oneIcon{
+    margin-left: 14.5vw;
+    margin-top: 2vw;
+    width: 8vw;
+    height: 8vw;
+  }
+  .iconText{
+    font-size: 4vw;
+  }
+  .fifthLink{
+    font-size: 2.5vw;
+    padding-left: 46vw;
+  }
+  .seventhBlock{
+    margin-top: 2vw;
+  }
+  #twelve{
+    width: 50vw;
+    height: 55vw;
+  }
+  #thirteen{
+    width: 28vw;
+    height: 35vw;
+    margin-top: -18vw;
+    margin-left: 40vw;
+  }
+  #blueBlockFourth{
+    width: 50vw;
+    height: 55vw;
+    margin-left: 15vw;
+    margin-top: -65vw;
+  }
+  .seventhTextBlock{
+    margin-left: -60vw;
+    margin-top: 85vw;
+  }
+  #seventhHeader{
+    font-size: 6vw;
+    line-height: 5.5vw;
+    max-width: 60vw;
+  }
+  .seventhText{
+    font-size: 2.2vw;
+    line-height: 3vw;
+    margin-top: 0.5vw;
+    min-width: 65vw;
+  }
+  #seventhNote{
+    font-size: 2.2vw;
+  }
+  #seventhlink{
+    margin-left: -45vw;
+    font-size: 2.2vw;
+  }
+  #readmore{
+    margin-left: -5vw;
+    margin-top: -7.3vw;
+  }
+  .footer{
+    margin-left: -15vw;
+    height: 60vw;
+  }
+  .footerText{
+    flex-direction: column;
+    padding: 2vw 0 3vw 10vw ;
+    font-size: 3vw;
+  }
+  #finishNote{
+    font-size: 2vw;
+  }
+  .footerTwo{
+    margin-left: -15vw;
+    height: 15vw;
+  }
+  .finishLink{
+    font-size: 2vw;
+  }
+  .footerFinishText{
+    margin-top: 3vw;
+    margin-left: 25vw;
+  }
+}
+@media(max-width: 575px){
+  html{
+    margin-left: 17vw;
+    margin-right: 17vw;
+  }
+  #title{
+    font-size: 6vw;
+  }
+  #secondPicture{
+    min-width: 45vw;
+    min-height: 45vw;
+    margin-left: -48vw;
+  }
+  .firstTextBlock{
+    margin-left: -63vw;
+    margin-top: 120vw;
+    min-height: 70vw;
+  }
+  #textInFirstBlock{
+    font-size: 9.5vw;
+    line-height: 10.5vw;
+    min-width: 55vw;
+  }
+  #firstLink{
+    font-size: 9.5vw;
+    margin-top: 53vw;
+    margin-left: -55vw;
+  }
+  #blueBlock{
+    margin-top: -125vw;
+    margin-left: 6vw;
+    min-height: 300vw;
+    min-width: 52vw;
+  }
+  .secondTextBlock{
+    min-width: 55vw;
+    min-height: 85vw;
+    margin-top: -150vw;
+  }
+  #textInSecondBlock{
+    font-size: 6vw;
+    line-height:7vw;
+  }
+  #secondLink{
+    font-size: 3.5vw;
+    margin-left: -49.5vw;
+    margin-top: 75vw;
+  }
+  #thirdPicture{
+    margin-left: 8vw;
+    min-width: 50vw;
+    max-width: 55vw;
+    min-height: 65vw;
+    max-height: 74vw;
+  }
+  .thirdPictureBlock{
+    margin-top: 70vw;
+    margin-left: -10vw;
+  }
+  #fourthPicture{
+    width: 63vw;
+    height: 70vw;
+    margin-left: 10vw;
+  }
+  #fifthPicture{
+    width: 52vw;
+    height: 70vw;
+    margin-top: 60vw;
+    margin-left: -57.5vw;
+  }
+  #sixthPicture{
+    width: 50vw;
+    height: 45vw;
+    margin-top: 120vw;
+    margin-left: -50vw;
+  }
+  .thirdTextBlock{
+    margin-left: 6vw;
+    margin-top: -230vw;
+  }
+  #thirdHeader{
+    min-width: 50vw;
+    font-size: 9.5vw;
+  }
+  #textInThirdBlock{
+    font-size: 3vw;
+    line-height:4vw;
+    min-width: 55vw;
+    margin-top: 25vw;
+    margin-left: -50vw;
+  }
+  .thirdLink{
+    margin-top: 45vw;
+    margin-left: -55vw;
+  }
+  #thirdLink{
+    font-size: 3vw;
+    padding: 4vw 3vw 2vw 3vw;
+    min-width: 25vw;
+    min-height: 2vw;
+  }
+  .fourthBlock{
+    margin-top: 185vw;
+  }
+  .fourthTextBlock{
+    min-height: 115vw;
+    max-width: 55vw;
+    margin-left: 0;
+  }
+  #fourthHeader{
+    min-width: 40vw;
+    font-size: 6vw;
+    line-height: 7vw;
+  }
+  #fourthText{
+    min-width: 38vw ;
+    font-size: 3vw;
+    margin-left: -40vw;
+    margin-top: 25vw;
+  }
+  #fourthLink{
+    margin-top: 55vw;
+    margin-left: 17vw;
+    font-size: 3vw;
+    padding: 4vw 5vw 4vw 5vw;
+  }
+  #blueBlockSecond{
+    margin-left: 8vw;
+    margin-top: -107vw;
+    height: 185vw;
+  }
+  #blueBlockThird{
+    margin-left: -63vw;
+    margin-top: 30vw;
+    min-width: 63vw;
+    height: 30vw;
+  }
+  #seventhPicture{
+    min-width: 55vw;
+    min-height: 55vw;
+    margin-left: -57vw;
+    margin-top: 15vw;
+  }
+  #eighthPicture{
+    width: 55vw;
+    height: 48vw;
+    margin-top: 10vw;
+  }
+  .blueSquare{
+    min-width: 55vw;
+    min-height: 48vw;
+    margin-top: -40vw;
+    margin-left: 7vw;
+  }
+  #ninthPicture{
+    width: 55vw;
+    height: 48vw;
+    margin-top: -5vw;
+    margin-left: 0;
+  }
+  .blueSquareTwo{
+    min-width: 55vw;
+    min-height: 48vw;
+    margin-left: 8vw;
+    margin-top: -37vw;
+  }
+  #tenthPicture{
+    width: 55vw;
+    height: 48vw;
+    margin-top: 18vw;
+  }
+  .blueSquareThree{
+    min-width: 55vw;
+    min-height: 48vw;
+    margin-top: -38vw;
+    margin-left: 8vw;
+  }
+  #MAPAText{
+    min-width: 60vw;
+  }
+  .fifthTextBlock{
+    font-size: 4.5vw;
+    line-height: 6vw;
+    margin-left: 0vw;
+  }
+  #fifthLinkOne{
+    font-size:3.5vw;
+    margin-left: -45.5vw;
+  }
+  #fifthLink{
+    font-size: 3.5vw;
+    margin-left: -45.5vw;
+  }
+  #fifthLinkThird{
+    font-size: 3.5vw;
+    margin-left: -45.5vw;
+  }
+  .sixthBlock{
+    min-height: 360vw;
+    margin-left: -18vw;
+  }
+  #eleventhPicture{
+    margin-left: 8vw;
+    width: 63vw;
+    height: 100vw;
+  }
+  #textInSixthBlock{
+    font-size: 3vw;
+    min-width: 61vw;
+    min-height: 15vw;
+    margin-left: -63vw;
+    margin-top: 85.5vw;
+    padding: 2vw 1vw 2.5vw 1vw;
+  }
+  .iconBox{
+    height: 250vw;
+    margin-top: 107vw;
+    margin-left: -65.5vw;
+  }
+  .iconBoxOne{
+    width: 63vw;
+    height: 58vw;
+  }
+  .iconBoxTwo{
+    width: 63vw;
+    height: 58vw;
+  }
+  .oneIcon{
+    margin-left: 9vw;
+    width: 12vw;
+    height:12vw;
+  }
+  .iconText{
+    font-size: 5vw;
+  }
+  .fifthLink{
+    font-size: 3vw;
+    padding-left: 41vw;
+  }
+  .seventhBlock{
+    margin-top: 2vw;
+    min-height: 200vw;
+  }
+  #twelve{
+    width: 58vw;
+    height: 75vw;
+  }
+  #thirteen{
+    width: 35vw;
+    height: 35vw;
+    margin-top: -11vw;
+    margin-left: 15vw;
+  }
+  #blueBlockFourth{
+    width: 58vw;
+    height: 75vw;
+    margin-left: 5vw;
+    margin-top: -90vw;
+  }
+  .seventhTextBlock{
+    margin-left: -60vw;
+    margin-top: 115vw;
+  }
+  #seventhHeader{
+    font-size: 7.5vw;
+    line-height: 8vw;
+    max-width: 60vw;
+  }
+  .seventhText{
+    font-size: 3vw;
+    line-height: 4vw;
+    margin-top: 0.5vw;
+    min-width: 55vw;
+  }
+  #seventhNote{
+    font-size: 3vw;
+  }
+  #seventhlink{
+    margin-left: -40vw;
+    font-size: 3vw;
+  }
+  #readmore{
+    margin-left: -41vw;
+    margin-top: 0;
+    font-size: 3vw;
+  }
+  .footer{
+    margin-left: -20vw;
+    height: 70vw;
+  }
+  .footerText{
+    flex-direction: column;
+    padding: 2vw 0 3vw 10vw ;
+    font-size: 4vw;
+  }
+  #finishNote{
+    font-size: 3vw;
+  }
+  .footerTwo{
+    margin-left: -20vw;
+    height: 20vw;
+  }
+  .finishLink{
+    font-size: 3vw;
+  }
+  .footerFinishText{
+    margin-top: 3vw;
+    margin-left: 13vw;
+  }
+
+}
+
+
+
+
